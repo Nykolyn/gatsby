@@ -1,11 +1,6 @@
 import React from 'react';
-import Nav from '../components/Nav';
+import 'normalize.css';
 
-const HomePage = () => (
-  <div>
-    <Nav />
-    <p>Hey! I'm the home page!</p>
-  </div>
-);
+const HomePage = () => <p>Hey! I'm the home page!</p>;
 
 export default HomePage;
